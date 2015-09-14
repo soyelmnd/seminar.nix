@@ -21,7 +21,7 @@ Upload sourcecode to `/home/{user-name}/www`. There are several ways to make it
 
 ### 1.3. Setup apache & mysql
 Setup apache site (via virtual host)
-* Port 8080
+* Port 80
 * DocumentRoot `home/{user-name}/www`
 * Run as user `apache`
 * Run as group `www` (should create `www` group)
