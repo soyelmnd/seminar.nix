@@ -1,4 +1,4 @@
 #!/bin/bash
 cwd=$(dirname $(readlink -f $0))
 cd "$cwd/../"
-casperjs ./bin/spider.js
+casperjs --ssl-protocol=tlsv1 ./bin/spider.js

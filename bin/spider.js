@@ -1,6 +1,6 @@
 var startUrl = 'https://500px.com/fresh?categories=Nude'
   , firstPage = 1
-  , maxPage = 3
+  , maxPage = 10
   , maxDuplicates = 10;
 
 var fs = require('fs');
