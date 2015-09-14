@@ -63,7 +63,7 @@ Please see [http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--
 As we don't have a nice domain name point to the playgrounds, let's make it
 `ngrok`ed. Just type
 ```bash
-ngrok http 8080 -subdomain=of-{user-name}
+ngrok http 80 -subdomain=of-{user-name}
 ```
 
 ### 2.2. Benchmark via Google's Page Speed Insight
