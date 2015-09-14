@@ -52,6 +52,10 @@ Exec the spider, and wait
   501px-crawl
 ```
 
+### 1.5. Setup cronjob for the spider
+Let's make the `501px-crawl` runs every 2 minutes.
+Please see [http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800]()
+
 
 ## 2. Testing it
 
