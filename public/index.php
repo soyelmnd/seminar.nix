@@ -1,6 +1,6 @@
 <?php
 $basePath = dirname(__FILE__);
-$baseUri = dirname('//' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
+$baseUri = '//' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['REQUEST_URI']);
 
 $images = glob($basePath . '/res/photos/*.jpg');
 
