@@ -1,0 +1,5 @@
+#!/bin/bash
+cwd=$(dirname $(readlink -f $0))
+cd "$cwd/../"
+rm -rf ./res/photos/*
+rm -rf ./res/records/*

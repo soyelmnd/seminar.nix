@@ -1,0 +1,20 @@
+{
+  "name": "501px",
+  "version": "0.0.1",
+  "description": "A dev-ketchup at [Offspring Digital](http://offspringdigital.com/). Nix basic",
+  "bin": {
+    "501px-crawl": "./bin/501px-crawl",
+    "501px-clean": "./bin/501px-clean"
+  },
+  "scripts": {
+    "crawl": "./bin/501px-crawl",
+    "clean": "./bin/501px-clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyelmnd/of-devketchup.nix.git"
+  },
+  "author": "soyelmnd <minhnd.it@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
