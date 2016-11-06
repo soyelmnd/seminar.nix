@@ -1,3 +1,18 @@
+> DISCLAIMER  
+>   
+> This is the walk-through scripts in an offline seminar about \*nix, which
+> gives a basic understanding / real-world practices of the steps to deploy a
+> typical web application to a blank server machine. The tasks includes creating
+> system user account, setting up proper proper permissions, uploading crafted
+> sourcecode, preparing server and database, setting up cronjob and scheduling
+> crawling tasks, gateway, cache and load ballance ...
+>
+> The sample application was a pretty naughty app for artists only, who likes
+> nudity arts on 500px but just don't have enough patient to click "uncover" all
+> the time. It was working well at the time of this seminar, but might not for
+> future versions :-) (and probably the covered black tile has been removed?)
+>
+
 501px
 =====
 So this is an art website of photographers, called the 501px.
@@ -56,7 +71,6 @@ Exec the spider, and wait
 Let's make the `501px-crawl` runs every 2 minutes.
 Please see [http://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800]()
 
-
 ## 2. Testing it
 
 ### 2.1. Tunnel to outside
@@ -72,3 +86,5 @@ Or use the already installed `psi` cli tool
 ## 3. Improve
 
 ### 3.1  Nginx as a simple gateway
+
+### 3.2 Caching and load balancing
